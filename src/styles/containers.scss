@@ -1,0 +1,42 @@
+.containers{
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 5rem;
+    line-height: 3rem;
+    float: left;
+
+&.blue{
+    background-color:lightblue; 
+}
+&.green{
+    background-color: rgb(124, 211, 170);
+}
+&.red {
+    background-color: rgb(255, 127, 127);
+}
+&.gray{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    float: none;
+}
+}
+button{
+    color:white;
+    background-color: rgb(47, 163, 230);
+    border: none;
+    padding: 3px 8px;
+&:hover{
+    opacity: 0.8;
+}   
+
+}
+input:focus{
+   outline: none;
+}
+
+
+
+

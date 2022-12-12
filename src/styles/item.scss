@@ -1,0 +1,31 @@
+.items{
+    padding: 0 10px;
+    border: 1px solid lightslategray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    .price{
+        color: white;
+        background-color: #889B73;
+        padding: 2px 8px;
+        border-radius: 15px ;
+        font-size: 14px;
+        font-weight: bold;
+        margin-right: 10px;
+        
+    }
+    .remove_icon{
+        font-size: 25px;
+        color: red;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}
