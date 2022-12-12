@@ -31,7 +31,7 @@ export function ProjectContextProvider(props) {
     if(state.budget!=0 || state.expenses.length!=0){
       localStorage.setItem("budget",JSON.stringify(state))
     }
-  })
+  },[state])
   useEffect(()=>{
     if(localStorage.getItem("budget")!==null){
       const values=localStorage.getItem("budget");
